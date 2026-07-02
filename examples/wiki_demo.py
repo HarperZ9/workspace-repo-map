@@ -15,9 +15,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
-from index_graph.wiki.html import render_wiki_html
-from index_graph.wiki.pack import build_wiki_pack
-from index_graph.wiki.seal import verify_wiki
+from index_graph.wiki.html import render_wiki_html  # noqa: E402
+from index_graph.wiki.pack import build_wiki_pack  # noqa: E402
+from index_graph.wiki.seal import verify_wiki  # noqa: E402
 
 REPO_NAME = "miniweb"
 
